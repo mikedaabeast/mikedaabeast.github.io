@@ -1,0 +1,12 @@
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 5px;
+}
+
+.glyphicon:before { margin-right: 5px; }
+
+.anchor{
+    display:block;
+    height:50px; /* this is the height of your header */
+    margin-top:-50px; /* this is again negative value of the height of your header */
+    visibility:hidden;
+}

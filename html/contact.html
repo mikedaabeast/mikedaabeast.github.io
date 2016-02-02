@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/.css">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -30,13 +30,12 @@
         <!-- Menu Items -->
         <div class="collapse navbar-collapse" id="mainNavBar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="html/education.html">Education</a></li>
-                <li><a href="html/work.html">Work</a></li>
-                <li><a href="html/contact.html">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li class="active"><a href="#">Contact</a></li>
             </ul>
         </div>
-
     </div>
 </nav>
 
@@ -47,19 +46,30 @@
         </div>
     </div>
 </div>
-<script>
-    $(document).ready(function() {
-        setInterval ('cursorAnimation()', 800);
-    });
 
-    function cursorAnimation() {
-        $('#cursor').animate({
-            opacity: 0
-        }, 'fast', 'swing').animate({
-            opacity: 1
-        }, 'fast', 'swing');
-    }
-</script>
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="../images/linkedin.jpg" alt="...">
+            <div class="caption">
+                <h3>Linkedin</h3>
+                <p><a href="https://www.linkedin.com/in/michael-arboleda-a439b2ba" class="btn btn-primary" role="button">Go To</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="../images/yikyak.jpg" alt="...">
+            <div class="caption">
+                <h3>Yik Yak</h3>
+                <p>Fun Fact: My Yakarma score is 141,042 as of 2/2/2016</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

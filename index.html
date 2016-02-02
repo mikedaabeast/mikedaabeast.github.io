@@ -41,10 +41,25 @@
 </nav>
 
 <div class="container-fluid">
-
-
+    <div id="home">
+        <div class="container">
+            <h1 class="landing-title">It's Michael Arboleda<span id="cursor">!!</span></h1>
+        </div>
+    </div>
 </div>
+<script>
+    $(document).ready(function() {
+        setInterval ('cursorAnimation()', 800);
+    });
 
+    function cursorAnimation() {
+        $('#cursor').animate({
+            opacity: 0
+        }, 'fast', 'swing').animate({
+            opacity: 1
+        }, 'fast', 'swing');
+    }
+</script>
 
 </body>
 </html>

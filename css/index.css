@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/Profile.jpg");
+    background-image: url("../images/Broward.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 0px 50px;
@@ -14,7 +14,7 @@ body {
 }
 
 .layer {
-    background-color: rgba(150, 150, 150, 0.7);
+    /*background-color: rgba(150, 150, 150, 0.7);*/
     position: absolute;
     top: 0;
     left: 0;
@@ -31,4 +31,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.me{
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+
+}
+
+.me-wrapper{
+    padding-top: 10%;
+}
+
+.white{
+    color: white;
 }
